@@ -1,0 +1,121 @@
+body {
+    background-image: url("../image/img04.jpg");
+}
+h1 {
+    font-size: 60px;
+    padding-left: 50px;
+}
+#menu {
+    display: flex;
+    background: black;
+}
+#menu a{
+    padding: 10px 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+#cate-title {
+    padding: 30px;
+}
+#blog-name {
+    margin: 0px;
+}
+#blog-info {
+    margin: 0px;
+}
+#blog-title {
+    padding: 20px;
+}
+#blog-content {
+    display: flex;
+}
+#body {
+    display: flex;
+
+}
+#content {
+    width: 60%;
+}
+#categories {
+    width: 40%;
+}
+#categories a{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+}
+#cate-menu {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 40%;
+}
+hr {
+    width: 40%;
+}
+#categories h3 {
+    text-align: center;
+}
+img{
+    float: left;
+    padding: 0px 10px 10px 10px;
+}
+#content hr {
+    width: 100%;
+}
+form input {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+form span {
+    color: #a6a6a6;
+}
+#formCate button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+#formSendMessage input{
+    background: white;
+    cursor: initial;
+    border: 1px solid #ccc;
+    height: 20px;
+    width: 200px;
+}
+#formSendMessage {
+    text-align: -webkit-center;
+    margin-top: 30px;
+}
+table {
+    border-spacing: 20px;
+    padding: 20px 45px;
+}
+
+fieldset {
+    width: 50px;
+    border: 1px dashed brown;
+}
+legend{
+    background-color: brown;
+}
+th {
+    text-align: right;
+}
+#formSendMessage #submitFormSendMessage {
+    background-image: url("../image/contact_bt.gif");
+    cursor: pointer;
+    width: 53px;
+    height: 24px;
+    border: none;
+}
+#formSendMessage #inputMessage {
+    height: 50px;
+    width: 200px;
+}
+#menu {
+    background-image: url("../image/img02.jpg");
+    background-repeat: no-repeat;
+    background-position: 75px bottom;
+}
